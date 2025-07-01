@@ -84,7 +84,7 @@ const Weather = () => {
 
         {weatherData?<>
         <img src={weatherData.icon} alt="" className='weather-icon'/>
-        <p className='temperature'>{weatherData.temperature}°c</p>
+        <p className='temperature'>{weatherData.temperature}°F</p>
         <p className='location'>{weatherData.location}</p>
         <div className="weather-data">
             <div className="col">
